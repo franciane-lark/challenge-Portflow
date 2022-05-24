@@ -7,59 +7,49 @@
 .texto-portflow {
     display: flex;
     width: 50%;
-    height: 50%;
+    height: 10%;
     margin-top: 3rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
+    font-family: 'Montserrat';
     font-size: 40px;
 }
 .navegacao {
     display: flex;
-    justify-content: space-around;
-    width: 62%;
-    height: 50%;
-    margin-top: -1.5rem;
-    padding-left: 30rem;
-    font-size: 15px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+    margin-top: -2.5rem;
+    padding-left: 50rem;
+    font-family: 'Montserrat';
+    font-size: 30px;
     color: darkgrey;
 }
 li:hover {
     color: black;
     cursor: pointer;
 }
-
-/* Responsividade*/
-@media (max-width: 1440px) {
-    .navegacao {
-        margin-left: 20rem;
-    }
-}
-@media (max-width: 1024px) {
-    .navegacao {
-        padding-left: 10rem;
-    }
-}
-@media (max-width: 768px) {
-    .navegacao {
-        margin-left: 15rem;
-    }
-}
-@media (max-width: 425px) {
-    .navegacao {
-        flex-direction: column;
-        margin-top: 1rem;
-        margin-left: 3rem;
-    }
-}
-@media (max-width: 375px) {
-    .texto-portflow {
+.laranjaazul {
+    width: 100%;
+    height: 5%;
     margin-top: 1rem;
-    margin-left: 7rem;
-    }
-    .navegacao {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-        margin-left: -1rem;   
-    }
+    margin-left: 0rem;
+} 
+
+.frases {
+    
+    margin-top: -22rem;
+    margin-left: 5rem;
+    font-family: 'Montserrat';
+    font-size: 78px;
+    color: #FFFFFF;
+}
+.contato {
+    width: 294px;
+    height: 43px;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-family: 'Montserrat';
+    opacity: 70%;
+    font-size: 35px;
+    color: #FFFFFF;
 }

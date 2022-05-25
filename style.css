@@ -4,9 +4,6 @@
     list-style: none;
     box-sizing: border-box
 }
-.btn-black {
-    display: none;
-}
 .texto-portflow {
     display: flex;
     width: 50%;

@@ -4,6 +4,9 @@
     list-style: none;
     box-sizing: border-box
 }
+.btn-black {
+    display: none;
+}
 .texto-portflow {
     display: flex;
     width: 50%;
@@ -36,7 +39,6 @@ li:hover {
 } 
 
 .frases {
-    
     margin-top: -22rem;
     margin-left: 5rem;
     font-family: 'Montserrat';
@@ -52,4 +54,17 @@ li:hover {
     opacity: 70%;
     font-size: 35px;
     color: #FFFFFF;
+}
+/*Responsividade*/
+@media (min-width: 425px){
+    .fig-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65vw;
+        height: 20vh;
+        font-size: 45px;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
 }

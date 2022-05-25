@@ -52,16 +52,3 @@ li:hover {
     font-size: 35px;
     color: #FFFFFF;
 }
-/*Responsividade*/
-@media (min-width: 425px){
-    .fig-menu {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 65vw;
-        height: 20vh;
-        font-size: 45px;
-        background-color: #000000;
-        color: #FFFFFF;
-    }
-}

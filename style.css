@@ -4,6 +4,9 @@
     list-style: none;
     box-sizing: border-box
 }
+.fig-menu {
+    display: none;
+}
 .texto-portflow {
     display: flex;
     width: 50%;
@@ -52,3 +55,69 @@ li:hover {
     font-size: 35px;
     color: #FFFFFF;
 }
+
+@media (max-width: 1024px){
+    .navegacao {
+        margin-left: 0.9rem;
+        padding-left: 20rem; 
+        font-size: 30px;
+    }
+    .frases {
+        padding-top: 1.5em;
+        font-size: 58px;
+    }
+}
+@media (max-width: 768px){
+    .navegacao {
+        margin-left: -0.1rem;
+        padding-left: 20rem; 
+        font-size: 27px;
+    }
+    .frases {
+        padding-top: 2.5em;
+        font-size: 55px;
+    }
+}
+/*
+@media (min-width: 425px) {
+    .texto-portflow {
+        justify-content: center;
+        margin-top: -2rem;
+        font-size: 30px;
+    }
+    .navegacao {
+        display: none;
+    }
+    .fig-menu {
+        display: flex;
+    }
+    .menu {
+        width: 10%;
+        height: 10%;
+    }
+    .laranja {
+        margin-top: -1.2rem;
+        margin-left: -12rem;
+    }
+    .laranjaazul {
+        width: 150vw;
+        height: 90vh;
+    }
+    .frases {
+        margin-top: -22rem;
+        margin-left: 18rem;
+        font-family: 'Montserrat';
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+    .contato {
+        width: 294px;
+        height: 43px;
+        margin-top: 1rem;
+        margin-left: 18rem;
+        font-family: 'Montserrat';
+        opacity: 70%;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+}*/
